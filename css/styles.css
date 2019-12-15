@@ -3,6 +3,7 @@ body {
   background-image: url(../img/pizza-background.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 ul {
