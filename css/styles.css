@@ -53,6 +53,7 @@ button {
   font-weight: bolder;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  color: whitesmoke;
 }
 
 /* form section styling */
@@ -65,4 +66,17 @@ button {
 
 .col-md-3 {
   padding-bottom: 1rem;
+}
+
+/* image section styling */
+.images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+
+.img {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
 }
