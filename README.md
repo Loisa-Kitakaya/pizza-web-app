@@ -1,10 +1,10 @@
 # pizza-web-app
 
-gh-pages link comes here
+<https://loisa-kitakaya.github.io/pizza-web-app>
 
 ## Code grade
 
-code beat grade goes here
+[![codebeat badge](https://codebeat.co/badges/4d50f80e-dfe8-4202-90d5-313c6e6a161d)](https://codebeat.co/projects/github-com-loisa-kitakaya-pizza-web-app-master)
 
 ## About project
 
@@ -27,7 +27,7 @@ git clone https://github.com/Loisa-Kitakaya/pizza-web-app.git
 
 ### Additional installation instructions
 
-To be able to use/view this website; one only needs to have a stable internet connection and a machine with a browser installed in it  *(Google Chrome is recommended)*
+To be able to use/view this website; one only needs to have a stable internet connection and a machine with a browser installed in it _(Google Chrome is recommended)_
 
 ## Configuration
 
@@ -47,7 +47,7 @@ Browse issues: <https://github.com/Loisa-Kitakaya/pizza-web-app/issues>
 
 Licence: MIT License
 
-Copyright (c) 2019 *Loisa Kitakaya*
+Copyright (c) 2019 _Loisa Kitakaya_
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
