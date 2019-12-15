@@ -7,6 +7,11 @@
     <!-- links to stylesheet files for styling -->
     <link rel="stylesheet" href="./css/bootstrap.css" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <!-- link to google-fonts API -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
     <!-- favicon icon -->
     <link rel="shortcut icon" href="./img/pizza-logo.ico" type="image/x-icon" />
     <!-- webpage title -->
@@ -41,17 +46,17 @@
               <div class="col-md-3 form-group">
                 <label for="pizza-size">Pizza Size</label>
                 <select name="pizza-size" class="form-control" id="pizza-size">
-                  <option value="">Choose size</option>
+                  <option value="0">Choose size</option>
                   <option value="1000">Small - ksh1000</option>
-                  <option value="1500">Small - ksh1500</option>
-                  <option value="2000">Small - ksh2000</option>
+                  <option value="1500">Medium - ksh1500</option>
+                  <option value="2000">Large - ksh2000</option>
                 </select>
               </div>
               <!-- crust selection space -->
               <div class="col-md-3 form-group">
                 <label for="crust-size">Crust type</label>
                 <select name="crust-size" class="form-control" id="crust-size">
-                  <option value="">Choose crust</option>
+                  <option value="0">Choose crust</option>
                   <option value="700">Crispy - ksh700</option>
                   <option value="550">Gluten free - ksh550</option>
                   <option value="600">Thin Crust - ksh600</option>
@@ -67,7 +72,7 @@
                   class="form-control"
                   id="pizza-toppings"
                 >
-                  <option value="">Choose toppings</option>
+                  <option value="0">Choose toppings</option>
                   <option value="700">Pepperoni - ksh700</option>
                   <option value="550">Mushrooms - ksh550</option>
                   <option value="600">Onions & Bacon - ksh600</option>
@@ -115,27 +120,41 @@
           <!-- grid system - for better responsiveness -->
           <div class="row">
             <div class="col-md-4">
-              <img
-                class="img img-fluid"
-                src="./img/you-want-some-pizza.png"
-                alt="You want some Pizza?"
-              />
+              <p>
+                <img
+                  class="pic"
+                  src="./img/you-want-some-pizza.png"
+                  alt="You want some Pizza?"
+                />
+              </p>
             </div>
             <div class="col-md-4">
-              <img
-                class="img img-fluid"
-                src="./img/you-want-some-pizza.png"
-                alt="You want some Pizza?"
-              />
+              <p>
+                <img
+                  class="pic"
+                  src="./img/you-want-some-pizza.png"
+                  alt="You want some Pizza?"
+                />
+              </p>
             </div>
             <div class="col-md-4">
-              <img
-                class="img img-fluid"
-                src="./img/you-want-some-pizza.png"
-                alt="You want some Pizza?"
-              />
+              <p>
+                <img
+                  class="pic"
+                  src="./img/you-want-some-pizza.png"
+                  alt="You want some Pizza?"
+                />
+              </p>
             </div>
           </div>
+        </div>
+        <!-- webpage caption -->
+        <div class="page-caption">
+          <p class="page-caption_element_caption">
+            Pick your order from the <em>restaurant</em> or have
+            <strong>us</strong> deliver it your
+            <em>location</em>
+          </p>
         </div>
       </div>
       <!-- footer section -->
