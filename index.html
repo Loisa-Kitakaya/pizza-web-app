@@ -33,20 +33,83 @@
         <div class="webpage-header">
           <h1 class="webpage-header_element_title">L’ora della Pizza</h1>
         </div>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-          architecto dicta itaque sed fuga, quis sequi earum. Laboriosam
-          assumenda ipsam iure qui totam unde omnis tempore praesentium
-          quisquam! Tempora molestiae voluptatum voluptates tenetur atque
-          explicabo dolor id ipsa eius, vel in assumenda? Magni dolorem maiores
-          veniam accusamus, reprehenderit culpa necessitatibus nihil repudiandae
-          dignissimos fugit facilis doloribus suscipit asperiores vitae aut quos
-          inventore doloremque itaque! Saepe est ad repellendus, natus, ullam
-          temporibus quo expedita assumenda impedit id at officia distinctio
-          reprehenderit atque minima voluptate recusandae tempora non
-          exercitationem commodi et nostrum voluptates earum inventore. Debitis,
-          itaque? Cum reiciendis laudantium non ipsum!
-        </p>
+        <!-- form for the user to fill -->
+        <form id="get-pizza-order">
+          <div class="form-section">
+            <div class="row">
+              <!-- size selection space -->
+              <div class="col-md-3 form-group">
+                <label for="pizza-size">Pizza Size</label>
+                <select name="pizza-size" class="form-control" id="pizza-size">
+                  <option value="">Choose size</option>
+                  <option value="1000">Small - ksh1000</option>
+                  <option value="1500">Small - ksh1500</option>
+                  <option value="2000">Small - ksh2000</option>
+                </select>
+              </div>
+              <!-- crust selection space -->
+              <div class="col-md-3 form-group">
+                <label for="crust-size">Crust type</label>
+                <select name="crust-size" class="form-control" id="crust-size">
+                  <option value="">Choose crust</option>
+                  <option value="700">Crispy - ksh700</option>
+                  <option value="550">Gluten free - ksh550</option>
+                  <option value="600">Thin Crust - ksh600</option>
+                  <option value="650">Thick Crust - ksh650</option>
+                  <option value="850">Stuffed - ksh850</option>
+                </select>
+              </div>
+              <!-- toppings selection space -->
+              <div class="col-md-3 form-group">
+                <label for="pizza-toppings">Pizza toppings</label>
+                <select
+                  name="pizza-toppings"
+                  class="form-control"
+                  id="pizza-toppings"
+                >
+                  <option value="">Choose toppings</option>
+                  <option value="700">Pepperoni - ksh700</option>
+                  <option value="550">Mushrooms - ksh550</option>
+                  <option value="600">Onions & Bacon - ksh600</option>
+                  <option value="650">Extra cheese - ksh650</option>
+                  <option value="850">Black olives - ksh850</option>
+                  <option value="900">Chicken - ksh900</option>
+                  <option value="850">Pineapple - ksh850</option>
+                  <option value="900">Beef - ksh900</option>
+                  <option value="900">Ham - ksh900</option>
+                  <option value="350">Fresh basil - ksh350</option>
+                </select>
+              </div>
+              <!-- quantity selection space -->
+              <div class="col-md-3 form-group">
+                <label for="pizza-quantity">Quantity</label>
+                <input
+                  type="number"
+                  name="pizza-quantity"
+                  class="form-control"
+                  id="pizza-quantity"
+                  placeholder="Choose quantity"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- users total space -->
+          <div class="user-total form-group">
+            <output
+              type="text"
+              name="total-pizza-price"
+              class="form-control"
+              id="total-pizza-price"
+            />
+          </div>
+          <!-- place pizza order space -->
+          <!-- users total space -->
+          <div class="pizza-order form-group">
+            <button type="submit" class="btn btn-outline-warning">
+              Place Order
+            </button>
+          </div>
+        </form>
       </div>
       <!-- footer section -->
       <div class="footer-section">
