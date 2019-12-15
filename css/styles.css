@@ -18,7 +18,7 @@ li {
 
 /* navigation bar styling */
 .navigation-bar {
-  background-color: rgba(218, 165, 32, 0.884);
+  background-color: rgba(184, 163, 112, 0.884);
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
@@ -30,4 +30,11 @@ li {
   text-align: center;
   text-decoration: none;
   padding: 14px 16px;
+}
+
+/* header section styling */
+.webpage-header {
+  text-align: center;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
 }
