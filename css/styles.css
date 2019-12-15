@@ -16,6 +16,19 @@ li {
   float: left;
 }
 
+::placeholder {
+  color: #212529;
+}
+
+button {
+  margin-top: 1rem;
+  margin-left: 45%;
+}
+
+.card {
+  background-color: rgba(184, 163, 112, 0.884);
+}
+
 /* navigation bar styling */
 .navigation-bar {
   background-color: rgba(184, 163, 112, 0.884);
@@ -38,4 +51,18 @@ li {
 .webpage-header {
   text-align: center;
   font-weight: bolder;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* form section styling */
+.form-section {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.col-md-3 {
+  padding-bottom: 1rem;
 }
