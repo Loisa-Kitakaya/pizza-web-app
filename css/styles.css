@@ -71,6 +71,11 @@ button {
   padding-bottom: 1rem;
 }
 
+.message-for-user_element_total {
+  text-align: center;
+  font-weight: bold;
+}
+
 /* image section styling */
 .images {
   display: flex;
